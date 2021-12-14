@@ -24,7 +24,7 @@ public class BaseClass {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(pdata.getdata("url"));
-		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
 	
 	@AfterMethod
